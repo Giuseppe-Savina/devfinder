@@ -40,6 +40,7 @@ Alternatively, you can run it with a simple local server (optional):
 ```bash
 # from the project folder
 python -m http.server
+```
 Then open http://localhost:8000 in your browser
 
 # Usage
@@ -51,12 +52,12 @@ If the username does not exist or the input is empty, the app handles the error 
 
 ## Project structure
 The project is intentionally kept simple and uses a clear separation of concerns:
-
+```
 devfinder/
 ├── index.html   # page structure
 ├── styles.css   # layout and visual styling
 └── app.js       # application logic and API calls
-
+```
 Each file has a single responsibility, making the code easy to read and maintain.
 
 ## Features and limitations

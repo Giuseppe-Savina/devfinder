@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DevFinder</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="header">
+    <h1 class="title">DevFinder</h1>
+    <p class="subtitle">Cerca sviluppatori GitHub in modo semplice</p>
+  </header>
+
+  <main class="container">
+
+    <section class="search">
+      <input
+        id="username-input"
+        type="text"
+        placeholder="Cerca username GitHub (es. Giuseppe-Savina)"
+      />
+      <button id="search-btn">Cerca</button>
+    </section>
+
+    <p id="error" class="hidden"></p>
+
+    <section id="result" class="card hidden">
+        <img id="avatar" class="avatar" />
+
+        <div class="info">
+          <h2 id="name"></h2>
+          <p id="bio"></p>
+
+        <div class="stats">
+          <span><strong id="repos"></strong> repo</span>
+          <span><strong id="followers"></strong> follower</span>
+          <span><strong id="following"></strong> following</span>
+       </div>
+
+        <a id="profile-link" target="_blank">Profilo GitHub</a>
+        
+    </section>
+    
+
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <span>DevFinder — Vanilla JavaScript • GitHub API</span>
+  </footer>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
+
+
+
+
+
